@@ -4,26 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Traffic Light</title>
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="traffic-light">
             <div class="panel">
-                <div class="light light-off">
-
-                </div>
-                <div class="light light-off">
-
-                </div>
-                <div class="light green-light">
-
-                </div>
+                <div id="red" class="light light-off"></div>
+                <div id="yellow" class="light light-off"></div>
+                <div id="green" class="light green-light"></div>
             </div>
-
         </div>
-        <button>Click Me</button>
+        <button onclick="changeTrafficLight()">Click Me</button>
     </div>
-    
+    <script src="javascript.js"></script>
 </body>
 </html>

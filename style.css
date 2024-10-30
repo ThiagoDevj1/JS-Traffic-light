@@ -77,3 +77,7 @@ background-color: #ff1100;
     border-radius: 50%;
 
 }
+
+button:hover{
+    background-color: #651f71;
+}
